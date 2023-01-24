@@ -114,3 +114,34 @@ button:hover{
     display: none;
 }
 
+@media (max-width: 450px){
+    body { position: fixed;background-color: rgb(16, 16, 19); }
+
+.container{display: block; height: 100px; }
+
+.card {
+    background-color: rgb(235, 232, 228);
+    padding: 30px;
+    border-radius: 4%;
+    box-shadow: 3px 30px 10px 01px #00000060;
+    display: inline-block;
+    margin: 330px 7% 0 7%;
+    position: fixed;
+    } 
+}
+@media screen and (max-width: 844px) and (orientation: landscape) {
+    body { position: fixed;background-color: rgb(16, 16, 19); }
+
+    .container{display: block; height: 100px; }
+
+    .card {
+        background-color: rgb(235, 232, 228);
+        padding: 30px;
+        border-radius: 4%;
+        box-shadow: 3px 30px 10px 01px #00000060;
+        display: inline-block;
+        margin: 47px 7% 0 52%;
+        position: fixed;
+        } 
+        
+}

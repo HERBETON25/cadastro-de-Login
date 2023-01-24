@@ -1,3 +1,5 @@
+/*area de cadastro*/
+
 let btn = document.querySelector('#versenha')
 let btnconfirmsenha = document.querySelector('#verconfirmsenha')
 

@@ -19,6 +19,7 @@ body {
     height: 1100px;
     width: 1150px;
     align-items: center; 
+   
     
 }
 
@@ -126,54 +127,26 @@ a:hover{
 color: #272262;
 }
 
-@media (max-width: 380px){
-    body {
-        
-     position: fixed;
-      background-color: rgb(16, 16, 19);
-      
-       
-    }
-   .container{
-    display: block;
-    line-height: 70%;
-    height: 100px;
-    
-    
-   }
-   .card {
-    background-color: rgb(235, 232, 228);
-    padding: 30px;
-    border-radius: 4%;
-    box-shadow: 3px 30px 10px 01px #00000060;
-    display: inline-block;
-    margin: 330px 0 0 16px;
-    position: fixed;
-}
-.@media (max-he: 667px 375px){
-    body {
-        
-     position: fixed;
-      background-color: rgb(16, 16, 19);
-      
-       
-    }
-   .container{
-    display: block;
-    line-height: 70%;
-    height: 100px;
-    
-    
-   }
-   .card {
-    background-color: rgb(235, 232, 228);
-    padding: 30px;
-    border-radius: 4%;
-    box-shadow: 3px 30px 10px 01px #00000060;
-    display: inline-block;
-    margin: 330px 0 0 16px;
-    position: fixed;
-}
+    @media (max-width: 450px){
+        body { position: fixed;background-color: rgb(16, 16, 19); }
 
+    .container{display: block; height: 100px; }
 
-}
+    .card {
+        background-color: rgb(235, 232, 228);
+        padding: 30px;
+        border-radius: 4%;
+        box-shadow: 3px 30px 10px 01px #00000060;
+        display: inline-block;
+        margin: 330px 7% 0 7%;
+        position: fixed;
+        } 
+    }
+    @media(max-width: 900px) {
+        body { position: fixed;background-color: rgb(16, 16, 19); }
+        .container {flex;justify-content: end;height: 74%;width: 99%;align-items: center;position: fixed;}
+        
+        
+            
+            
+    }

@@ -121,12 +121,14 @@ button:hover{
 
 .card {
     background-color: rgb(235, 232, 228);
-    padding: 30px;
+    padding: 21px;
     border-radius: 4%;
     box-shadow: 3px 30px 10px 01px #00000060;
     display: inline-block;
-    margin: 330px 7% 0 7%;
+    margin: 75px 7% 0 7%;
     position: fixed;
+    width: 290px;
+    height: 48%;
     } 
 }
 @media screen and (max-width: 844px) and (orientation: landscape) {

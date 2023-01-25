@@ -125,10 +125,10 @@ button:hover{
     border-radius: 4%;
     box-shadow: 3px 30px 10px 01px #00000060;
     display: inline-block;
-    margin: 274px 7% 0 7%;
+    margin: 292px 7% 0 7%;
     position: fixed;
-    width: 263px;
-    height: 49%;
+    width: 276px;
+    height: 44%;
     } 
 }
 @media screen and (max-width: 844px) and (orientation: landscape) {
@@ -138,12 +138,14 @@ button:hover{
 
     .card {
         background-color: rgb(235, 232, 228);
-        padding: 30px;
-        border-radius: 4%;
+        padding: 17px;
+        border-radius: 0%;
         box-shadow: 3px 30px 10px 01px #00000060;
         display: inline-block;
-        margin: 15px 7% 0 52%;
+        margin: -35px 5% 7% 55%;
         position: fixed;
+        width: 292px;
+        height: 354px;
         } 
         
 }

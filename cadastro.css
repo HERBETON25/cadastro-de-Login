@@ -130,6 +130,9 @@ button:hover{
     width: 287px;
     height: 49%;
     } 
+button{
+    margin-top: 0px;
+}
 }
 @media screen and (max-width: 844px) and (orientation: landscape) {
     body { position: fixed;background-color: rgb(16, 16, 19); }
